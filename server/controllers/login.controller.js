@@ -21,7 +21,7 @@ module.exports = {
         { userName: req.body.userName },
         process.env.SECRET_KEY,
         {
-          expiresIn: '4h'
+          expiresIn: '7d'
         }
       )
       res.send({
