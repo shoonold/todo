@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { config } from '../config'
-import { history } from '../history'
 
 const instance = axios.create({
   baseURL: config.apiBaseUrl,
@@ -31,7 +30,8 @@ instance.interceptors.response.use(
   },
   error => {
     if (error && error.response && 401 == error.response.status) {
-      history.push('/')
+      // history.push('/')
+      window.location.href = '/'
       localStorage.removeItem('todoToken')
       localStorage.removeItem('todoUserName')
       return Promise.reject(error)
