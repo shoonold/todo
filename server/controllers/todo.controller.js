@@ -51,7 +51,7 @@ module.exports = {
       element =>
         element.todoName != req.body.todoName &&
         (element.owner != req.body.userName ||
-          element.sharedWith.includes(req.body.userName))
+          !element.sharedWith.includes(req.body.userName))
     )
     fs.writeFileSync('./data/todos.json', JSON.stringify(filteredTodos))
     res.send({ success: true, msg: 'Todo deleted successfully' })
