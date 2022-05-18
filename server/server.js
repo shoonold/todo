@@ -1,11 +1,11 @@
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 
 // For env file
 require('dotenv').config()
 
 // For Cors
-var cors = require('cors')
+const cors = require('cors')
 app.use(cors())
 
 const routes = require('./routes/index')
