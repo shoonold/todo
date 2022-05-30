@@ -1,5 +1,4 @@
 # todo
-Todo app created with node, express, react, and REST JSON API
 
 ## Tech Stack
 - Postgres
