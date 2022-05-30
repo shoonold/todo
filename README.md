@@ -1,16 +1,16 @@
 # todo
 
 ## Tech Stack
-- Postgres
-- Express
 - Node
+- Express
 - React
+- REST JSON API
 
 ### Setup
 
 Clone the api-test repository
 ```
-https://github.com/shoonold/todo-app-postgres.git
+https://github.com/shoonold/todo.git
 ```
 Open client and server directory in terminal and install the dependencies. To install dependencies,
 ```
