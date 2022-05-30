@@ -3,7 +3,7 @@
 ## Tech Stack
 - Node
 - Express
-- React
+- React and Material UI
 - REST JSON API
 
 ### Setup
