@@ -4,7 +4,7 @@
 - Node
 - Express
 - React and Material UI
-- REST JSON API
+- Restful API with json file
 
 ### Setup
 
